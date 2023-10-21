@@ -1,0 +1,61 @@
+*{
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news{
+    max-width: 800px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 0px 2px 0px #676767;
+}
+
+.news:hover{
+    background-color: rgb(250, 109, 109);
+}
+
+button{
+    background: linear-gradient(rgb(26, 255, 0), rgb(0, 147, 39));
+    box-shadow: 0px 0px 2px 0px #676767;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+p{
+    margin: 25px;
+}
+
+h2{
+    margin: 25px;
+}
+
+.forHidden
+{
+    background-color: rgba(250,250,250,0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.hiddenNews{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgb(222, 247, 83);
+    overflow: auto;
+    width: 40%;
+    height: 42%;
+    display: none;
+}
